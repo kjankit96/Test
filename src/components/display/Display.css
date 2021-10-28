@@ -1,0 +1,33 @@
+*, *:before, *:after {
+    box-sizing: relative;
+  }
+  
+h6{
+    text-align:left;
+    font-size: 12px;
+}
+
+  .contained {
+    padding: 0 16px;
+  }
+  
+  .contained::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: arial;
+}
+
+.description {
+  color: grey;
+  font-size: 14px;
+  text-align: left;  
+}
